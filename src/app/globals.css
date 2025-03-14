@@ -1,0 +1,145 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors-Trial Thin.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors-Trial ExtraLight.ttf") format("truetype");
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors-Trial Light.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial DemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial ExtraBold.ttf") format("truetype");
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "TT Fors";
+  src: url("/fonts/TT Fors Trial Black.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+:root {
+  --background: #EFEEEC;
+  --foreground: #272727;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #EFEEEC;
+    --foreground: #272727;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: "TT Fors", sans-serif;
+}
+
+.arrow {
+  display: flex;
+  align-items: center;
+  height: 25px;
+}
+
+
+.arrow span {
+  position: relative;
+  display: block;
+  width: 200px;
+  height: 2px;
+  background-color: var(--background);
+}
+
+.arrow span::after {
+  content: '';
+  position: absolute;
+  right: -2px;
+  top: -5px;
+  transform: rotate(45deg);
+  width: 15px;
+  height: 2px;
+  background-color: var(--background);
+}
+
+.arrow span::before {
+  content: '';
+  position: absolute;
+  right: -2px;
+  bottom: -5px;
+  transform: rotate(-45deg);
+  width: 15px;
+  height: 2px;
+  background-color: var(--background);
+}
+
+.lg-thumb-item.active {
+  border-color: #FF8C00 !important; /* Orange color */
+}
+
+.lg-thumb-item:hover {
+  border-color: #FF8C00 !important;
+}
+
+input {
+  border-radius: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+}
+
+textarea {
+  border-radius: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
