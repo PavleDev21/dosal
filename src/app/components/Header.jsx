@@ -82,11 +82,11 @@ const Header = ({ black, isInverted }) => {
                 </Link>
                 <nav>
                     <ul className={`flex items-center gap-4 ${isInverted && 'text-white'}`}>
-                        <li><Link href="/#o-nama" className='text-lg 2xl:text-2xl p-2 2xl:px-4 hover:opacity-70 transition duration-300'>O nama</Link></li>
-                        <li><Link href="/galerija" className='text-lg 2xl:text-2xl p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Galerija</Link></li>
-                        <li><Link href="/katalog" className='text-lg 2xl:text-2xl p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Katalog</Link></li>
-                        <li><Link href="/#ponuda" className='text-lg 2xl:text-2xl p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Ponuda</Link></li>
-                        <li><Link href="#kontakt" className='text-lg 2xl:text-2xl p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Kontakt</Link></li>
+                        <li><Link href="/#o-nama" className='text-lg p-2 2xl:px-4 hover:opacity-70 transition duration-300'>O nama</Link></li>
+                        <li><Link href="/galerija" className='text-lg p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Galerija</Link></li>
+                        <li><Link href="/katalog" className='text-lg p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Katalog</Link></li>
+                        <li><Link href="/#ponuda" className='text-lg p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Ponuda</Link></li>
+                        <li><Link href="#kontakt" className='text-lg p-2 2xl:px-4 hover:opacity-70 transition duration-300'>Kontakt</Link></li>
                     </ul>
                 </nav>
             </div>

@@ -30,7 +30,7 @@ const Offer = () => {
       {/* Title & Description */}
       <h2 className="text-center text-6xl">Ponuda</h2>
       <p className="text-center text-gray-600 mt-8 max-w-2xl mx-auto">
-      Prvi u Srbiji donosimo A-klasu porcelanskih pločica debljine 15 mm – savršen spoj vrhunskog dizajna, trajnosti i funkcionalnosti. Naše ploče su univerzalne i mogu se koristiti za podove, zidove, radne ploče, stepenice, šankove, stolove i prozorske daske.
+      Prvi u Srbiji donosimo A-klasu porcelanskih pločica debljine <strong>15 mm</strong> – savršen spoj vrhunskog dizajna, trajnosti i funkcionalnosti. Naše ploče su univerzalne i mogu se koristiti za podove, zidove, radne ploče, stepenice, šankove, stolove i prozorske daske.
       </p>
 
       {/* Offer Cards */}

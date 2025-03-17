@@ -15,7 +15,7 @@ const Footer = () => {
           POŠALJITE NAM UPIT
         </h2>
         <p className="text-[#272727] text-right mb-6 max-w-[80%] ml-auto text-sm">
-          i mi ćemo Vas kontaktirati u najkraćem roku
+          I mi ćemo Vas kontaktirati u najkraćem roku
         </p>
         <form className="flex flex-col gap-4 mb-10">
           <input 

@@ -17,7 +17,6 @@ export const categories = {
         "/images/podovi-i-stepenice/da5c5231-38d6-47c0-9898-e2545429fd07.jpg",
         "/images/podovi-i-stepenice/b189bde2-005f-440e-8dac-f6119fb1c066.jpg",
         "/images/podovi-i-stepenice/7779d76c-8ab6-499a-a4ef-30607143a0fb.jpg",
-        "/images/podovi-i-stepenice/ce1b53c3-6f36-436c-9831-2eedef8ad704.jpg",
         "/images/podovi-i-stepenice/44198a70-e2b1-4af3-bfea-68c7d3820c46.jpg",
         "/images/podovi-i-stepenice/1d880bac-7448-4129-b489-2d131ff1ccff.jpg",
         "/images/podovi-i-stepenice/611f03cf-4729-421a-b7b0-605e85aca1e8.jpg",
