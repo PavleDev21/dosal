@@ -56,7 +56,7 @@ export default function Catalog() {
   return (
     <section className="max-w-7xl mx-auto px-4 py-20">
       {/* Filter Buttons */}
-      <div className="flex flex-wrap items-center gap-3 mb-6 p-2">
+      <div className="flex flex-wrap items-center gap-3 mb-4 p-2">
         <p className="text-lg">Dimenzije:</p>
         {filters.map((filter) => (
           <button
@@ -69,6 +69,13 @@ export default function Catalog() {
             {filter}
           </button>
         ))}
+      </div>
+      <div className="flex flex-wrap items-center gap-6 mb-6 p-2">
+        <p className="text-lg max-md:w-full">Značenje oznaka:</p>
+        <p className="text-lg">MT - mat</p>
+        <p className="text-lg">GL - glatka, sjajna</p>
+        <p className="text-lg">R - protivkliznost</p>
+        <p className="text-lg">MTB - glatka mat</p>
       </div>
 
       {/* Catalog Grid with LightGallery */}
